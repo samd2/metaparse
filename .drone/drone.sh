@@ -5,6 +5,7 @@
 # (See accompanying file LICENSE.txt or copy at http://boost.org/LICENSE_1_0.txt)
 
 set -e
+set -x
 export TRAVIS_BUILD_DIR=$(pwd)
 export DRONE_BUILD_DIR=$(pwd)
 export TRAVIS_BRANCH=$DRONE_BRANCH
@@ -51,11 +52,17 @@ cd test/build
 cd ../..
 cd metaparse
 echo "Checking if all automatically generated files are up to date"
+echo "Line1"
 rm doc/getting_started_*.qbk doc/before_*.qbk example/getting_started/*.hpp
+echo "Line2"
 tools/generate_all.py
+echo "Line3"
 git add -N .
+echo "Line4"
 git diff --exit-code
+echo "Line5"
 echo "Building the unit tests and the examples"
+echo "Line6"
 cd test
 ../../../b2 -d+2 ${CXXFLAGS}
 sed -i 's/#include <boost\/metaparse\/[^/]*\.hpp>/#include <boost\/metaparse.hpp>/' *.?pp
