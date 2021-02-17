@@ -191,6 +191,7 @@ jobs:
           TOOLSET: ${{ matrix.toolset }}
           STD: ${{ matrix.std }}
           TRAVIS_BRANCH: ${{ github.base_ref }}
+          TRAVIS_OS_NAME: "linux"
         run: |
           echo '==================================> SETUP'
           if [ -n "$GHA_CONTAINER" ]; then
