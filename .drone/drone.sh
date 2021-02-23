@@ -22,7 +22,7 @@ if [ "$DRONE_JOB_BUILDTYPE" == "boost" ]; then
 echo '==================================> INSTALL'
 
 echo "using clang : 3.5 : clang++ ;" > ~/user-config.jam
-sudo pip install pep8 pylint
+sudo pip3 install pep8 pylint
 
 echo '==================================> SCRIPT'
 
@@ -76,7 +76,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "4e3fa5de4a-f44b5bccc0" ]; then
 
 echo '==================================> INSTALL'
 
-sudo pip install pep8 pylint
+sudo pip3 install pep8 pylint
 
 echo '==================================> SCRIPT'
 
@@ -131,7 +131,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "fea35f4805-f44b5bccc0" ]; then
 echo '==================================> INSTALL'
 
 echo "using clang : 3.6 : clang++ ;" > ~/user-config.jam
-sudo pip install pep8 pylint
+sudo pip3 install pep8 pylint
 
 echo '==================================> SCRIPT'
 
@@ -186,7 +186,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "dfd0ac5626-f44b5bccc0" ]; then
 echo '==================================> INSTALL'
 
 echo "using gcc : 4.6 : g++-4.6 ;" > ~/user-config.jam
-sudo pip install pep8 pylint
+sudo pip3 install pep8 pylint
 
 echo '==================================> SCRIPT'
 
@@ -241,7 +241,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "0e39902f2e-f44b5bccc0" ]; then
 echo '==================================> INSTALL'
 
 echo "using gcc : 4.7 : g++-4.7 ;" > ~/user-config.jam
-sudo pip install pep8 pylint
+sudo pip3 install pep8 pylint
 
 echo '==================================> SCRIPT'
 
@@ -296,7 +296,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "91b94bb329-f44b5bccc0" ]; then
 echo '==================================> INSTALL'
 
 echo "using gcc : 4.8 : g++-4.8 ;" > ~/user-config.jam
-sudo pip install pep8 pylint
+sudo pip3 install pep8 pylint
 
 echo '==================================> SCRIPT'
 
@@ -351,7 +351,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "bb699d113a-f44b5bccc0" ]; then
 echo '==================================> INSTALL'
 
 echo "using gcc : 4.9 : g++-4.9 ;" > ~/user-config.jam
-sudo pip install pep8 pylint
+sudo pip3 install pep8 pylint
 
 echo '==================================> SCRIPT'
 

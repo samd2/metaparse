@@ -202,7 +202,6 @@ jobs:
             sudo python -m pip install --upgrade pip==20.3.4
             sudo /usr/local/bin/pip install cmake
           fi
-          sudo python -m pip install --upgrade pip==20.3.4
           # BOOST_CI_ORG=boostorg BOOST_CI_BRANCH=master && wget https://github.com/$BOOST_CI_ORG/boost-ci/archive/$BOOST_CI_BRANCH.tar.gz && tar -xvf $BOOST_CI_BRANCH.tar.gz && mkdir -p .github &&  mv boost-ci-$BOOST_CI_BRANCH .github/boost-ci
           echo '==================================> PACKAGES'
           set -ex
@@ -271,7 +270,7 @@ jobs:
 
           echo '==================================> INSTALL'
 
-          sudo pip install pep8 pylint
+          sudo pip3 install pep8 pylint
 
           echo '==================================> SCRIPT'
 
@@ -326,7 +325,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using clang : 3.5 : clang++ ;" > ~/user-config.jam
-          sudo pip install pep8 pylint
+          sudo pip3 install pep8 pylint
 
           echo '==================================> SCRIPT'
 
@@ -381,7 +380,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using clang : 3.6 : clang++ ;" > ~/user-config.jam
-          sudo pip install pep8 pylint
+          sudo pip3 install pep8 pylint
 
           echo '==================================> SCRIPT'
 
@@ -436,7 +435,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using gcc : 4.6 : g++-4.6 ;" > ~/user-config.jam
-          sudo pip install pep8 pylint
+          sudo pip3 install pep8 pylint
 
           echo '==================================> SCRIPT'
 
@@ -491,7 +490,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using gcc : 4.7 : g++-4.7 ;" > ~/user-config.jam
-          sudo pip install pep8 pylint
+          sudo pip3 install pep8 pylint
 
           echo '==================================> SCRIPT'
 
@@ -546,7 +545,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using gcc : 4.8 : g++-4.8 ;" > ~/user-config.jam
-          sudo pip install pep8 pylint
+          sudo pip3 install pep8 pylint
 
           echo '==================================> SCRIPT'
 
@@ -601,7 +600,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using gcc : 4.9 : g++-4.9 ;" > ~/user-config.jam
-          sudo pip install pep8 pylint
+          sudo pip3 install pep8 pylint
 
           echo '==================================> SCRIPT'
 
