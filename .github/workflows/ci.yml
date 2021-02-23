@@ -202,6 +202,7 @@ jobs:
             sudo python -m pip install --upgrade pip==20.3.4
             sudo /usr/local/bin/pip install cmake
           fi
+          sudo python -m pip install --upgrade pip==20.3.4
           # BOOST_CI_ORG=boostorg BOOST_CI_BRANCH=master && wget https://github.com/$BOOST_CI_ORG/boost-ci/archive/$BOOST_CI_BRANCH.tar.gz && tar -xvf $BOOST_CI_BRANCH.tar.gz && mkdir -p .github &&  mv boost-ci-$BOOST_CI_BRANCH .github/boost-ci
           echo '==================================> PACKAGES'
           set -ex
