@@ -38,7 +38,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-mv ../../* ../../.git ../../.travis.yml metaparse
+cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -92,7 +92,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-mv ../../* ../../.git ../../.travis.yml metaparse
+cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -147,7 +147,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-mv ../../* ../../.git ../../.travis.yml metaparse
+cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -202,7 +202,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-mv ../../* ../../.git ../../.travis.yml metaparse
+cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -257,7 +257,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-mv ../../* ../../.git ../../.travis.yml metaparse
+cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -312,7 +312,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-mv ../../* ../../.git ../../.travis.yml metaparse
+cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -367,7 +367,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-mv ../../* ../../.git ../../.travis.yml metaparse
+cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
