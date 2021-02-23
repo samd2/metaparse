@@ -270,7 +270,7 @@ jobs:
 
           echo '==================================> INSTALL'
 
-          python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+          python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; ls -alR $HOME/.local; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
           echo '==================================> SCRIPT'
 
@@ -325,7 +325,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using clang : 3.5 : clang++ ;" > ~/user-config.jam
-          python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+          python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; ls -alR $HOME/.local; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
           echo '==================================> SCRIPT'
 
@@ -380,7 +380,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using clang : 3.6 : clang++ ;" > ~/user-config.jam
-          python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+          python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; ls -alR $HOME/.local; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
           echo '==================================> SCRIPT'
 
@@ -435,7 +435,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using gcc : 4.6 : g++-4.6 ;" > ~/user-config.jam
-          python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+          python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; ls -alR $HOME/.local; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
           echo '==================================> SCRIPT'
 
@@ -490,7 +490,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using gcc : 4.7 : g++-4.7 ;" > ~/user-config.jam
-          python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+          python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; ls -alR $HOME/.local; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
           echo '==================================> SCRIPT'
 
@@ -545,7 +545,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using gcc : 4.8 : g++-4.8 ;" > ~/user-config.jam
-          python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+          python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; ls -alR $HOME/.local; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
           echo '==================================> SCRIPT'
 
@@ -600,7 +600,7 @@ jobs:
           echo '==================================> INSTALL'
 
           echo "using gcc : 4.9 : g++-4.9 ;" > ~/user-config.jam
-          python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+          python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; ls -alR $HOME/.local; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
           echo '==================================> SCRIPT'
 
