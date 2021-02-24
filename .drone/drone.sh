@@ -22,7 +22,7 @@ if [ "$DRONE_JOB_BUILDTYPE" == "boost" ]; then
 echo '==================================> INSTALL'
 
 echo "using clang : 3.5 : clang++ ;" > ~/user-config.jam
-python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
 echo '==================================> SCRIPT'
 
@@ -38,7 +38,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-cp -rp ../../* ../../.git ../../.travis.yml metaparse
+pwd ; ls -al ../../ ; cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -76,7 +76,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "4e3fa5de4a-f44b5bccc0" ]; then
 
 echo '==================================> INSTALL'
 
-python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
 echo '==================================> SCRIPT'
 
@@ -92,7 +92,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-cp -rp ../../* ../../.git ../../.travis.yml metaparse
+pwd ; ls -al ../../ ; cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -131,7 +131,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "fea35f4805-f44b5bccc0" ]; then
 echo '==================================> INSTALL'
 
 echo "using clang : 3.6 : clang++ ;" > ~/user-config.jam
-python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
 echo '==================================> SCRIPT'
 
@@ -147,7 +147,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-cp -rp ../../* ../../.git ../../.travis.yml metaparse
+pwd ; ls -al ../../ ; cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -186,7 +186,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "dfd0ac5626-f44b5bccc0" ]; then
 echo '==================================> INSTALL'
 
 echo "using gcc : 4.6 : g++-4.6 ;" > ~/user-config.jam
-python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
 echo '==================================> SCRIPT'
 
@@ -202,7 +202,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-cp -rp ../../* ../../.git ../../.travis.yml metaparse
+pwd ; ls -al ../../ ; cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -241,7 +241,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "0e39902f2e-f44b5bccc0" ]; then
 echo '==================================> INSTALL'
 
 echo "using gcc : 4.7 : g++-4.7 ;" > ~/user-config.jam
-python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
 echo '==================================> SCRIPT'
 
@@ -257,7 +257,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-cp -rp ../../* ../../.git ../../.travis.yml metaparse
+pwd ; ls -al ../../ ; cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -296,7 +296,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "91b94bb329-f44b5bccc0" ]; then
 echo '==================================> INSTALL'
 
 echo "using gcc : 4.8 : g++-4.8 ;" > ~/user-config.jam
-python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
 echo '==================================> SCRIPT'
 
@@ -312,7 +312,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-cp -rp ../../* ../../.git ../../.travis.yml metaparse
+pwd ; ls -al ../../ ; cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
@@ -351,7 +351,7 @@ elif [ "$DRONE_JOB_BUILDTYPE" == "bb699d113a-f44b5bccc0" ]; then
 echo '==================================> INSTALL'
 
 echo "using gcc : 4.9 : g++-4.9 ;" > ~/user-config.jam
-python3 -m pip install --upgrade pip==20.3.4; python3 -m pip install --upgrade setuptools wheel; which pip3; pip3 --version; echo $PATH; ls -alR $HOME/.local; echo "installing pep8"; pip3 install pep8; echo "pep8 installed"; pip3 install pylint; echo "pylint installed"
+python -m pip install --upgrade pip==20.3.4; echo "upgraded pip..."; which pip; pip --version; echo $PATH; python -m pip install --upgrade setuptools wheel; echo "installing pep8"; pip install pep8; echo "pep8 installed"; pip install pylint; echo "pylint installed"
 
 echo '==================================> SCRIPT'
 
@@ -367,7 +367,7 @@ tools/build_environment.py --dep_json tools/deps.json --action checkout --out .b
 cd .boost
 cd libs
 mkdir metaparse
-cp -rp ../../* ../../.git ../../.travis.yml metaparse
+pwd ; ls -al ../../ ; cp -rp ../../* ../../.git ../../.travis.yml metaparse
 cd ..
 cd tools/boostbook
 wget http://abel.web.elte.hu/boost_book_dependencies/docbook-xml-4.2.zip
